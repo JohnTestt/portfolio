@@ -13,9 +13,11 @@ export default defineConfig({
   server: {
     host: true
     },
+    
   resolve: {
     alias: {
       '@assets': path.resolve(__dirname,'./src/assets'),
     },
   },
+  base: "/portfolio/"
 });
