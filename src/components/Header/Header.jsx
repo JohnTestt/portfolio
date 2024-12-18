@@ -2,6 +2,7 @@ import { useState } from "react";
 import { HeaderMenu, Navigation, StyledMenuButton, NavigationItens, Itens } from "./style/style"
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import Logo from '@assets/logo.eldp.png'
 
 import { Drawer } from "../Drawer/Drawer";
 
@@ -25,7 +26,7 @@ export const Header = () => {
           </StyledMenuButton>
 
           <NavigationItens>
-            <img src="/src/assets/logo.eldp.png" />
+            <img src={Logo} /> 
           </NavigationItens>
 
           <NavigationItens>
